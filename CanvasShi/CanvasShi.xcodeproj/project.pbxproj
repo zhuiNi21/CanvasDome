@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FE630F51C450353002D18F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE630F41C450353002D18F0 /* main.m */; };
+		3FE630F81C450353002D18F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE630F71C450353002D18F0 /* AppDelegate.m */; };
+		3FE630FB1C450353002D18F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE630FA1C450353002D18F0 /* ViewController.m */; };
+		3FE630FE1C450353002D18F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE630FC1C450353002D18F0 /* Main.storyboard */; };
+		3FE631001C450353002D18F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE630FF1C450353002D18F0 /* Assets.xcassets */; };
+		3FE631031C450353002D18F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE631011C450353002D18F0 /* LaunchScreen.storyboard */; };
+		3FE6310E1C450353002D18F0 /* CanvasShiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6310D1C450353002D18F0 /* CanvasShiTests.m */; };
+		3FE631191C450353002D18F0 /* CanvasShiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE631181C450353002D18F0 /* CanvasShiUITests.m */; };
+		3FE631641C4503E3002D18F0 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE631501C4503E3002D18F0 /* CSAnimation.m */; };
+		3FE631651C4503E3002D18F0 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE631521C4503E3002D18F0 /* CSAnimationView.m */; };
+		3FE631661C4503E3002D18F0 /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE631541C4503E3002D18F0 /* CSBlurView.m */; };
+		3FE631671C4503E3002D18F0 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE631561C4503E3002D18F0 /* CSNavigationController.m */; };
+		3FE631681C4503E3002D18F0 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE631591C4503E3002D18F0 /* UIButton+TCCustomFont.m */; };
+		3FE631691C4503E3002D18F0 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6315B1C4503E3002D18F0 /* UILabel+TCCustomFont.m */; };
+		3FE6316A1C4503E3002D18F0 /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6315D1C4503E3002D18F0 /* UINavigationBar+TCCustomFont.m */; };
+		3FE6316B1C4503E3002D18F0 /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6315F1C4503E3002D18F0 /* UITextField+PlaceholderColor.m */; };
+		3FE6316C1C4503E3002D18F0 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE631611C4503E3002D18F0 /* UITextField+TCCustomFont.m */; };
+		3FE6316D1C4503E3002D18F0 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE631631C4503E3002D18F0 /* UITextView+TCCustomFont.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FE6310A1C450353002D18F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE630E81C450353002D18F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE630EF1C450353002D18F0;
+			remoteInfo = CanvasShi;
+		};
+		3FE631151C450353002D18F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE630E81C450353002D18F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE630EF1C450353002D18F0;
+			remoteInfo = CanvasShi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FE630F01C450353002D18F0 /* CanvasShi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanvasShi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE630F41C450353002D18F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FE630F61C450353002D18F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FE630F71C450353002D18F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FE630F91C450353002D18F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FE630FA1C450353002D18F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FE630FD1C450353002D18F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FE630FF1C450353002D18F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FE631021C450353002D18F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FE631041C450353002D18F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE631091C450353002D18F0 /* CanvasShiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasShiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE6310D1C450353002D18F0 /* CanvasShiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasShiTests.m; sourceTree = "<group>"; };
+		3FE6310F1C450353002D18F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE631141C450353002D18F0 /* CanvasShiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasShiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE631181C450353002D18F0 /* CanvasShiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasShiUITests.m; sourceTree = "<group>"; };
+		3FE6311A1C450353002D18F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE6314F1C4503E3002D18F0 /* CSAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAnimation.h; sourceTree = "<group>"; };
+		3FE631501C4503E3002D18F0 /* CSAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAnimation.m; sourceTree = "<group>"; };
+		3FE631511C4503E3002D18F0 /* CSAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAnimationView.h; sourceTree = "<group>"; };
+		3FE631521C4503E3002D18F0 /* CSAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAnimationView.m; sourceTree = "<group>"; };
+		3FE631531C4503E3002D18F0 /* CSBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSBlurView.h; sourceTree = "<group>"; };
+		3FE631541C4503E3002D18F0 /* CSBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSBlurView.m; sourceTree = "<group>"; };
+		3FE631551C4503E3002D18F0 /* CSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNavigationController.h; sourceTree = "<group>"; };
+		3FE631561C4503E3002D18F0 /* CSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNavigationController.m; sourceTree = "<group>"; };
+		3FE631571C4503E3002D18F0 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		3FE631581C4503E3002D18F0 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		3FE631591C4503E3002D18F0 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		3FE6315A1C4503E3002D18F0 /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		3FE6315B1C4503E3002D18F0 /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		3FE6315C1C4503E3002D18F0 /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		3FE6315D1C4503E3002D18F0 /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		3FE6315E1C4503E3002D18F0 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		3FE6315F1C4503E3002D18F0 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		3FE631601C4503E3002D18F0 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		3FE631611C4503E3002D18F0 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		3FE631621C4503E3002D18F0 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		3FE631631C4503E3002D18F0 /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE630ED1C450353002D18F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE631061C450353002D18F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE631111C450353002D18F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FE630E71C450353002D18F0 = {
+			isa = PBXGroup;
+			children = (
+				3FE630F21C450353002D18F0 /* CanvasShi */,
+				3FE6310C1C450353002D18F0 /* CanvasShiTests */,
+				3FE631171C450353002D18F0 /* CanvasShiUITests */,
+				3FE630F11C450353002D18F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE630F11C450353002D18F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE630F01C450353002D18F0 /* CanvasShi.app */,
+				3FE631091C450353002D18F0 /* CanvasShiTests.xctest */,
+				3FE631141C450353002D18F0 /* CanvasShiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE630F21C450353002D18F0 /* CanvasShi */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6314E1C4503A5002D18F0 /* Canvas */,
+				3FE630F61C450353002D18F0 /* AppDelegate.h */,
+				3FE630F71C450353002D18F0 /* AppDelegate.m */,
+				3FE630F91C450353002D18F0 /* ViewController.h */,
+				3FE630FA1C450353002D18F0 /* ViewController.m */,
+				3FE630FC1C450353002D18F0 /* Main.storyboard */,
+				3FE630FF1C450353002D18F0 /* Assets.xcassets */,
+				3FE631011C450353002D18F0 /* LaunchScreen.storyboard */,
+				3FE631041C450353002D18F0 /* Info.plist */,
+				3FE630F31C450353002D18F0 /* Supporting Files */,
+			);
+			path = CanvasShi;
+			sourceTree = "<group>";
+		};
+		3FE630F31C450353002D18F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FE630F41C450353002D18F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FE6310C1C450353002D18F0 /* CanvasShiTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6310D1C450353002D18F0 /* CanvasShiTests.m */,
+				3FE6310F1C450353002D18F0 /* Info.plist */,
+			);
+			path = CanvasShiTests;
+			sourceTree = "<group>";
+		};
+		3FE631171C450353002D18F0 /* CanvasShiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FE631181C450353002D18F0 /* CanvasShiUITests.m */,
+				3FE6311A1C450353002D18F0 /* Info.plist */,
+			);
+			path = CanvasShiUITests;
+			sourceTree = "<group>";
+		};
+		3FE6314E1C4503A5002D18F0 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6314F1C4503E3002D18F0 /* CSAnimation.h */,
+				3FE631501C4503E3002D18F0 /* CSAnimation.m */,
+				3FE631511C4503E3002D18F0 /* CSAnimationView.h */,
+				3FE631521C4503E3002D18F0 /* CSAnimationView.m */,
+				3FE631531C4503E3002D18F0 /* CSBlurView.h */,
+				3FE631541C4503E3002D18F0 /* CSBlurView.m */,
+				3FE631551C4503E3002D18F0 /* CSNavigationController.h */,
+				3FE631561C4503E3002D18F0 /* CSNavigationController.m */,
+				3FE631571C4503E3002D18F0 /* Canvas.h */,
+				3FE631581C4503E3002D18F0 /* UIButton+TCCustomFont.h */,
+				3FE631591C4503E3002D18F0 /* UIButton+TCCustomFont.m */,
+				3FE6315A1C4503E3002D18F0 /* UILabel+TCCustomFont.h */,
+				3FE6315B1C4503E3002D18F0 /* UILabel+TCCustomFont.m */,
+				3FE6315C1C4503E3002D18F0 /* UINavigationBar+TCCustomFont.h */,
+				3FE6315D1C4503E3002D18F0 /* UINavigationBar+TCCustomFont.m */,
+				3FE6315E1C4503E3002D18F0 /* UITextField+PlaceholderColor.h */,
+				3FE6315F1C4503E3002D18F0 /* UITextField+PlaceholderColor.m */,
+				3FE631601C4503E3002D18F0 /* UITextField+TCCustomFont.h */,
+				3FE631611C4503E3002D18F0 /* UITextField+TCCustomFont.m */,
+				3FE631621C4503E3002D18F0 /* UITextView+TCCustomFont.h */,
+				3FE631631C4503E3002D18F0 /* UITextView+TCCustomFont.m */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FE630EF1C450353002D18F0 /* CanvasShi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE6311D1C450353002D18F0 /* Build configuration list for PBXNativeTarget "CanvasShi" */;
+			buildPhases = (
+				3FE630EC1C450353002D18F0 /* Sources */,
+				3FE630ED1C450353002D18F0 /* Frameworks */,
+				3FE630EE1C450353002D18F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanvasShi;
+			productName = CanvasShi;
+			productReference = 3FE630F01C450353002D18F0 /* CanvasShi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FE631081C450353002D18F0 /* CanvasShiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE631201C450353002D18F0 /* Build configuration list for PBXNativeTarget "CanvasShiTests" */;
+			buildPhases = (
+				3FE631051C450353002D18F0 /* Sources */,
+				3FE631061C450353002D18F0 /* Frameworks */,
+				3FE631071C450353002D18F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE6310B1C450353002D18F0 /* PBXTargetDependency */,
+			);
+			name = CanvasShiTests;
+			productName = CanvasShiTests;
+			productReference = 3FE631091C450353002D18F0 /* CanvasShiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FE631131C450353002D18F0 /* CanvasShiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE631231C450353002D18F0 /* Build configuration list for PBXNativeTarget "CanvasShiUITests" */;
+			buildPhases = (
+				3FE631101C450353002D18F0 /* Sources */,
+				3FE631111C450353002D18F0 /* Frameworks */,
+				3FE631121C450353002D18F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE631161C450353002D18F0 /* PBXTargetDependency */,
+			);
+			name = CanvasShiUITests;
+			productName = CanvasShiUITests;
+			productReference = 3FE631141C450353002D18F0 /* CanvasShiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE630E81C450353002D18F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "周豪";
+				TargetAttributes = {
+					3FE630EF1C450353002D18F0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3FE631081C450353002D18F0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3FE630EF1C450353002D18F0;
+					};
+					3FE631131C450353002D18F0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3FE630EF1C450353002D18F0;
+					};
+				};
+			};
+			buildConfigurationList = 3FE630EB1C450353002D18F0 /* Build configuration list for PBXProject "CanvasShi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FE630E71C450353002D18F0;
+			productRefGroup = 3FE630F11C450353002D18F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE630EF1C450353002D18F0 /* CanvasShi */,
+				3FE631081C450353002D18F0 /* CanvasShiTests */,
+				3FE631131C450353002D18F0 /* CanvasShiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE630EE1C450353002D18F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE631031C450353002D18F0 /* LaunchScreen.storyboard in Resources */,
+				3FE631001C450353002D18F0 /* Assets.xcassets in Resources */,
+				3FE630FE1C450353002D18F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE631071C450353002D18F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE631121C450353002D18F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE630EC1C450353002D18F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE631681C4503E3002D18F0 /* UIButton+TCCustomFont.m in Sources */,
+				3FE6316D1C4503E3002D18F0 /* UITextView+TCCustomFont.m in Sources */,
+				3FE631651C4503E3002D18F0 /* CSAnimationView.m in Sources */,
+				3FE6316A1C4503E3002D18F0 /* UINavigationBar+TCCustomFont.m in Sources */,
+				3FE630FB1C450353002D18F0 /* ViewController.m in Sources */,
+				3FE631691C4503E3002D18F0 /* UILabel+TCCustomFont.m in Sources */,
+				3FE630F81C450353002D18F0 /* AppDelegate.m in Sources */,
+				3FE6316B1C4503E3002D18F0 /* UITextField+PlaceholderColor.m in Sources */,
+				3FE631661C4503E3002D18F0 /* CSBlurView.m in Sources */,
+				3FE6316C1C4503E3002D18F0 /* UITextField+TCCustomFont.m in Sources */,
+				3FE631641C4503E3002D18F0 /* CSAnimation.m in Sources */,
+				3FE631671C4503E3002D18F0 /* CSNavigationController.m in Sources */,
+				3FE630F51C450353002D18F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE631051C450353002D18F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE6310E1C450353002D18F0 /* CanvasShiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE631101C450353002D18F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE631191C450353002D18F0 /* CanvasShiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FE6310B1C450353002D18F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE630EF1C450353002D18F0 /* CanvasShi */;
+			targetProxy = 3FE6310A1C450353002D18F0 /* PBXContainerItemProxy */;
+		};
+		3FE631161C450353002D18F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE630EF1C450353002D18F0 /* CanvasShi */;
+			targetProxy = 3FE631151C450353002D18F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FE630FC1C450353002D18F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE630FD1C450353002D18F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FE631011C450353002D18F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE631021C450353002D18F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FE6311B1C450353002D18F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FE6311C1C450353002D18F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE6311E1C450353002D18F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CanvasShi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zh.CanvasShi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FE6311F1C450353002D18F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CanvasShi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zh.CanvasShi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FE631211C450353002D18F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CanvasShiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zh.CanvasShiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanvasShi.app/CanvasShi";
+			};
+			name = Debug;
+		};
+		3FE631221C450353002D18F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CanvasShiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zh.CanvasShiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanvasShi.app/CanvasShi";
+			};
+			name = Release;
+		};
+		3FE631241C450353002D18F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CanvasShiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zh.CanvasShiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CanvasShi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FE631251C450353002D18F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CanvasShiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zh.CanvasShiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CanvasShi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE630EB1C450353002D18F0 /* Build configuration list for PBXProject "CanvasShi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE6311B1C450353002D18F0 /* Debug */,
+				3FE6311C1C450353002D18F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE6311D1C450353002D18F0 /* Build configuration list for PBXNativeTarget "CanvasShi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE6311E1C450353002D18F0 /* Debug */,
+				3FE6311F1C450353002D18F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FE631201C450353002D18F0 /* Build configuration list for PBXNativeTarget "CanvasShiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE631211C450353002D18F0 /* Debug */,
+				3FE631221C450353002D18F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FE631231C450353002D18F0 /* Build configuration list for PBXNativeTarget "CanvasShiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE631241C450353002D18F0 /* Debug */,
+				3FE631251C450353002D18F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FE630E81C450353002D18F0 /* Project object */;
+}
